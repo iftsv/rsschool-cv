@@ -1,6 +1,5 @@
 ## Ilya Fetisov
 __Junior Frontend Developer__
-*****
 
 ## Contact information
 - Discord: [iftsv](https://discordapp.com/users/iftsv/)
@@ -38,6 +37,7 @@ I like to try something new, so that's why I decide to gain knowledge in the fie
 
 *****
 ## Code Example
+1. Codewar initial task
 ```javascript
 function multiply(a, b){
   return a * b
@@ -46,5 +46,5 @@ function multiply(a, b){
 
 *****
 ## Languages
-Russian - Native
-English - Intermediate (B1)
+- Russian - Native
+- English - Intermediate (B1)
