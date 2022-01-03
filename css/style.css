@@ -115,11 +115,6 @@ main :not(.contacts) ul {
     margin-bottom: 30px;
 }
 
-nav {
-    border-top: 1px solid black;
-    border-bottom: 1px solid black;
-}
-
 .crumbs ol {
     list-style-type: none;
     padding-left: 0;
