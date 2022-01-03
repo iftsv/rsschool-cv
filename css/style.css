@@ -1,0 +1,239 @@
+:root {
+    --left-column-text-color: #ffffff;
+    --right-column-text-color: #2d2f31;
+    --left-column-main-color: #2d2f31;
+    --footer-background-color: #2d2f31;
+  }
+  
+body {
+    box-sizing: border-box;
+    background-color: #f5f5f5;
+}
+  
+.container-centered {
+    margin: 20px auto;
+    width: 1024px;
+    font-family: "Cabin", sans-serif;
+    font-size: 18px;
+    line-height: 1.5;
+    background-color: #ffffff;
+    box-shadow: 10px 10px 40px -1px rgba(0, 0, 0, 0.23);
+}
+  
+.two-columns {
+    display: flex;
+}
+  
+.left-column {
+    width: 36%;
+    color: var(--left-column-text-color);
+    background-color: var(--left-column-main-color);
+}
+  
+.right-column {
+    width: 64%;
+    padding: 40px;
+}
+  
+header {
+    padding: 30px;
+    text-align: center;
+    background-color: #ffffff;
+}
+  
+header img {
+    margin-bottom: 10px;
+}
+  
+header h1 {
+    margin-bottom: 10px;
+    font-size: 2rem;
+    font-weight: 700;
+    line-height: 1.1;
+    color: var(--left-column-main-color);
+}
+  
+header h2 {
+    margin-bottom: 20px;
+    color: var(--left-column-main-color);    
+}
+  
+main {
+    padding: 0 40px;
+    padding-bottom: 30px;
+    border-bottom: 30px solid var(--left-column-text-color);
+}
+  
+main h3 {
+    width: 136px;
+    margin: 40px auto 20px;
+    padding: 5px 20px;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+  
+main h3 {
+    border-bottom: 2px solid var(--left-column-text-color);
+}
+  
+main li {
+    margin-bottom: 10px;
+}
+  
+.contacts li img {
+    vertical-align: middle;
+    margin-right: 15px;
+}
+  
+.contacts li p {
+    display: inline;
+    vertical-align: middle;
+}
+  
+.contacts a {
+    text-decoration: none;
+    color: var(--left-column-text-color);
+}
+
+img.icons {
+    background: var(--left-column-text-color);
+    margin-right: 15px;
+}
+
+main :not(.contacts) ul {
+    list-style-type: disc;
+    margin-left: 50px;
+}
+  
+.language-name {
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.breadcrumbs {
+    margin-bottom: 30px;
+}
+
+.crumbs ol {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.crumb {
+    display: inline-block;
+}
+
+.crumb a {
+    text-decoration: none;
+} 
+
+.crumb a::after {
+    display: inline-block;
+    color: #000;
+    content: '⇒';
+    font-size: 80%;
+    font-weight: bold;
+    padding: 0 3px;
+}  
+
+.right-column .sub-header {
+    display: flex;
+    margin-top: 30px;
+    margin-bottom: 15px;
+}
+  
+.right-column .about-myself .sub-header {
+    margin-top: 0;
+}
+  
+.about-myself p {
+    margin-bottom: 10px;
+    margin-left: 45px;
+}
+  
+.about-myself p:last-of-type {
+    margin-bottom: 0;
+}
+  
+.right-column h3 {
+    flex: 1;
+    vertical-align: middle;
+    font-weight: 700;
+    letter-spacing: 1px;
+    color: var(--right-column-text-color);
+    border-bottom: 2px solid var(--right-column-text-color);
+}
+  
+.right-column img {
+    vertical-align: middle;
+    margin-right: 15px;
+}
+  
+.right-column p {
+    color: var(--right-column-text-color);
+}
+  
+.education p strong {
+    font-weight: 700;
+}
+
+.education ul {
+    list-style-type: disc;
+    margin-left: 45px;
+    margin-bottom: 30px;
+}
+  
+.education li {
+    margin-bottom: 10px;
+    color: var(--right-column-text-color);
+}  
+  
+.my-projects ul {
+    list-style-type: disc;
+    margin-left: 45px;
+    margin-bottom: 30px;
+}
+  
+.my-projects li {
+    margin-bottom: 10px;
+    color: var(--right-column-text-color);
+}
+
+.my-projects a {
+    text-decoration: none;
+}
+ 
+.code-example p {
+    margin-left: 45px;
+}
+  
+pre {
+    font-family: monospace;
+    font-size: 0.9rem;
+    background-color: #f5f5f5;
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    font-size: 0.8rem;
+    color: #ffffff;
+    background-color: var(--footer-background-color);
+}
+  
+footer a {
+    text-decoration: none;
+    color: #ffffff;
+}
+  
+footer .github-icon {
+    margin-right: 10px;
+}
+  
+.my-github {
+    display: flex;
+    align-items: center;
+}
